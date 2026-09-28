@@ -1,0 +1,91 @@
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 30px;
+
+    background-color: #ff6b35;
+    color: #201a3b;
+
+    box-shadow: 0 4px 0 #151127;
+}
+
+.navigation-bar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.navigation-menu {
+    position: relative;
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 6px;
+
+    background: transparent;
+    color: #201a3b;
+    border: none;
+
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #ff8c61;
+    border-radius: 6px;
+}
+
+.material-symbols-outlined {
+    font-size: 28px;
+    color: #000;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+
+    min-width: 140px;
+
+    padding: 6px;
+
+    background: white;
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-menu button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    width: 100%;
+    padding: 10px;
+
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #222;
+
+    cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+    background: #f1f1f1;
+}
+
+.dropdown-menu .material-symbols-outlined {
+    font-size: 22px;
+}

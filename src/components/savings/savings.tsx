@@ -20,7 +20,7 @@ function Savings() {
 
   return (
     <div className="savings">
-      <h2>Savings</h2>
+      <h2>💸 Savings</h2>
 
       <p>
         Current Savings: {savings} kr / {savings_goal} kr
@@ -30,7 +30,7 @@ function Savings() {
         <p className="goal-reached">🎉 Congrats! Goal reached!</p>
       )}
 
-      <button onClick={() => setIsModalOpen(true)}>Add Savings</button>
+      <button onClick={() => setIsModalOpen(true)} className="savings-button">Add Savings</button>
 
       {isModalOpen && (
         <div className="modal">

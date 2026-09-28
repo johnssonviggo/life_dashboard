@@ -7,6 +7,10 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
+.savings {
+    margin-left: 10vw;
+}
+
 .modal-content {
     display: flex;
     flex-direction: column;
@@ -34,6 +38,10 @@
     outline: none;
 }
 
+.modal-content h3 {
+    color: black;
+}
+
 
 .modal-buttons {
     display: flex;
@@ -50,9 +58,14 @@
     color: white;
 }
 
+.savings-button {
+    background-color: #fff4d6;
+    color: brown;
+}
+
 .cancel-button,
 .add-button {
-    border: none;
+    border: 1px solid #353535;
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;
@@ -60,6 +73,15 @@
 }
 
 .cancel-button:hover,
-.add-button:hover {
+.add-button:hover,
+.savings-button:hover {
     opacity: 0.85;
+}
+
+.savings-button {
+    border: 1px solid #353535;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
 }
